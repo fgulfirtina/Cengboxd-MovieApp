@@ -1,0 +1,15 @@
+.actor-details {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .actor-details h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .actor-details p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  

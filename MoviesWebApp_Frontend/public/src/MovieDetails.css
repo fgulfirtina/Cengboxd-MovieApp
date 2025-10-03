@@ -1,0 +1,229 @@
+/* General Styles for Movie Details Page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Dark theme */
+    color: #fff;
+  }
+  
+  /* Movie Details Container */
+  .movie-details {
+    max-width: 900px;
+    margin: 5vh auto 20px; /* Add top margin for space below navbar */
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+  
+  /* Movie Title */
+  .movie-details h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #e50914;
+    text-align: center;
+  }
+  
+  /* Movie Image */
+  .movie-details img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Movie Text Details */
+  .movie-details p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #ddd;
+    margin-bottom: 15px;
+  }
+  
+  .movie-details p strong {
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Favorite Button */
+  .favorite-btn {
+    background-color: transparent;
+    border: 2px solid #e50914;
+    color: #e50914;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .favorite-btn:hover {
+    background-color: #e50914;
+    color: #fff;
+  }
+
+  .watchlist-btn {
+    background-color: transparent;
+    border: 2px solid #e50914;
+    color: #e50914;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .watchlist-btn:hover {
+    background-color: #e50914;
+    color: #fff;
+  }
+  
+  /* Reviews Section */
+  .reviews-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  .reviews-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #e50914;
+  }
+  
+  .review {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .review p {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 5px;
+  }
+  
+  .review p strong {
+    color: #fff;
+  }
+  
+  /* Rating Section */
+  .rating-section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  }
+  
+  .rating-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #e50914;
+  }
+  
+  .rating-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .rating-section label {
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
+  .rating-section select {
+    padding: 10px;
+    font-size: 2rem;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 5px;
+  }
+  
+  .rating-section button {
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .rating-section button:hover {
+    background-color: #b81d24;
+  }
+  
+  /* Error Message */
+  .error-message {
+    font-size: 1rem;
+    color: #e74c3c;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .movie-details h1 {
+      font-size: 2rem;
+    }
+  
+    .reviews-section h2,
+    .rating-section h3 {
+      font-size: 1.5rem;
+    }
+  
+    .rating-section button {
+      font-size: 1rem;
+    }
+  }
+  /* Rating Section Styles */
+.rating-section .stars-container {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .star {
+    font-size: 3rem;
+    color: #ccc; /* Default color for unfilled stars */
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .star.filled {
+    color: #f39c12; /* Golden color for filled stars */
+  }
+  
+  .star:hover {
+    color: #f39c12; /* Golden color on hover */
+  }
+  
+  button[type="submit"] {
+    padding: 12px 25px;
+    font-size: 1.3rem;
+    background-color: #e74c3c; /* Red button */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+  
+  

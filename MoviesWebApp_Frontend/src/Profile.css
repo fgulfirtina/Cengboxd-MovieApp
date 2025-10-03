@@ -1,0 +1,230 @@
+/* Profile Container */
+.profile-container {
+  padding: 30px;
+    max-width: 500px;
+    margin: 50px auto;
+    margin-top: 75px;
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile Header */
+.profile-header {
+  text-align: center;
+}
+
+.profile-picture-container {
+  margin-bottom: 20px;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ddd;
+}
+
+.profile-header h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Profile Info */
+.profile-info {
+  margin-bottom: 20px;
+}
+
+.profile-info label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.profile-info input,
+.profile-info select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.profile-info input[type="file"] {
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b20710;
+}
+
+/* Editing Form */
+.profile-edit-btn {
+  margin-top: 20px;
+}
+
+/* Expandable Sections */
+.reviews{
+  margin-top: 20px;
+}
+.watchlist{
+  margin-top: 20px;
+}
+.favorites {
+  margin-top: 20px;
+}
+
+.reviews h3 {
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #e50914;
+  margin-bottom: 10px;
+}
+.watchlist h3{
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #e50914;
+  margin-bottom: 10px;
+}
+.favorites h3 {
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #e50914;
+  margin-bottom: 10px;
+}
+
+.reviews ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+.watchlist ul{
+  list-style-type: none;
+  padding-left: 0;
+}
+.favorites ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.reviews li{
+  padding: 10px;
+  background-color: #b20710;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.watchlist li{
+  padding: 10px;
+  background-color: #b20710;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.favorites li {
+  padding: 10px;
+  background-color: #b20710;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.reviews li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.watchlist li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.favorites li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reviews h4{
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.watchlist h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.favorites h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.reviews img{
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.favorites img {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.reviews p{
+  margin-top: 5px;
+}
+.watchlist p{
+  margin-top: 5px;
+}
+.favorites p {
+  margin-top: 5px;
+}
+
+/* Profile Edit View */
+.profile-info p {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .profile-container {
+      padding: 15px;
+  }
+
+  .profile-picture {
+      width: 120px;
+      height: 120px;
+  }
+
+  .profile-header h1 {
+      font-size: 1.5rem;
+  }
+
+  .profile-info input,
+  .profile-info select {
+      font-size: 0.9rem;
+  }
+
+  .reviews li,
+  .watchlist li,
+  .favorites li {
+      font-size: 0.9rem;
+  }
+}

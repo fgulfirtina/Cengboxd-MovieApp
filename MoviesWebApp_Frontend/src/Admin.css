@@ -1,0 +1,226 @@
+/* General Styling for Admin Panel */
+.admin-container {
+  margin-top: 50px;
+  margin-bottom: 400px;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #333;
+  color: #fff;
+}
+
+.admin-container h1 {
+  text-align: center;
+  color: #e50914; /* Netflix-inspired red for emphasis */
+  margin-bottom: 20px;
+}
+
+.admin-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.admin-buttons button {
+  padding: 10px 20px;
+  background-color: #e50914; /* Red for primary action buttons */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.admin-buttons button:hover {
+  background-color: #b81d24; /* Darker red on hover */
+}
+
+.admin-section {
+  margin: 20px auto;
+  background-color: #555;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Reviews Section */
+.admin-reviews {
+  text-align: center;
+}
+
+.admin-reviews h2 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+  .movie-list button {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #f0f0f0;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.movie-list button:hover {
+  background-color: #e50914;
+  color: white;
+}
+
+.admin-reviews ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.admin-reviews li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.admin-reviews li button {
+  margin-left: 10px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  padding: 5px 10px;
+}
+
+.admin-reviews li button:hover {
+  background-color: #b81d24;
+}
+
+/* Users Section */
+.admin-users table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.admin-users th,
+.admin-users td {
+  text-align: left;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.admin-users th {
+  background-color: #e50914;
+  color: white;
+}
+
+.admin-users td button {
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-users td button:hover {
+  background-color: #b81d24;
+}
+
+/* Movies Section */
+.admin-movies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+}
+
+.selected-movie {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 700px;
+  max-width: 100%;
+}
+
+.selected-movie img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.selected-movie-details {
+  flex: 1;
+}
+
+.selected-movie-details h4 {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.selected-movie-details p {
+  margin: 5px 0;
+  color: #fff;
+}
+
+.selected-movie-details button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.selected-movie-details button:hover {
+  background-color: #b81d24;
+}
+
+/* Genre Section */
+.admin-genres table {
+width: 100%;
+border-collapse: collapse;
+margin-top: 15px;
+}
+
+.admin-genres th,
+.admin-genres td {
+text-align: left;
+padding: 10px;
+border: 1px solid #ddd;
+}
+
+.admin-genres th {
+background-color: #e50914;
+color: white;
+}
+
+.admin-genres td button {
+padding: 5px 10px;
+background-color: red;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.admin-genres td button:hover {
+background-color: #b81d24;
+}

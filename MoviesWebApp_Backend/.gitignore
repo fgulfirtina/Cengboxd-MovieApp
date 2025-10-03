@@ -1,0 +1,16 @@
+bin/
+obj/
+Debug/
+Release/
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+*.nupkg
+*.snk
+
+.vs/
+
+.env
