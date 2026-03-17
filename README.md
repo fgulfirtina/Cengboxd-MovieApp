@@ -85,9 +85,11 @@ It is for administrators to manage the application's content and users. It allow
 <img width="1124" height="504" alt="image" src="https://github.com/user-attachments/assets/5081d220-36b6-47b7-a8b7-6bb4d20925e3" />
 <img width="1132" height="507" alt="image" src="https://github.com/user-attachments/assets/9d64aac0-2af2-4eb1-8ac4-4cd0fede8759" />
 
+## Authors
 
+Fatmagül Fırtına — Computer Engineering Student at Dokuz Eylul University
 
-
+Doğa Ece Koca — Computer Engineering Student at Dokuz Eylul University
 
 
 
